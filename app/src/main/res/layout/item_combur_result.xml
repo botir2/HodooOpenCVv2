@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:id="@+id/lists"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/right_border"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/combur_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_str"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:width="55dp"
+        android:textSize="12dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/combur_color_wrap"
+        android:gravity="clip_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+</LinearLayout>
